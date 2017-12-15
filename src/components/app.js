@@ -1,9 +1,9 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
 const Markdown = require('react-markdown')
-const Editor = require('./components/editor/Editor')
-const CodeBlock = require('./components/editor/CodeBlock')
-const MarkdownControls = require('./components/editor/markdown-controls')
+const Editor = require('./components/Editor/Editor')
+const CodeBlock = require('./components/CodeBlock/CodeBlock')
+const MarkdownControls = require('./components/MarkdownControl/MarkdownControl')
 import Style from './app.less'
 
 const initialSource = `
